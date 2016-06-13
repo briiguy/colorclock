@@ -58,7 +58,7 @@ var hexCode=['0','0','0','0','0','0']
 var bigHour=parseInt(timeArray[0]*.624)
 var littleHours=function(){
     if(timeArray[0]>=15){return timeArray[0]-15}
-    return timeArray[0]
+    return parseInt(timeArray[0])
 }
 var littleHour=littleHours()
 
