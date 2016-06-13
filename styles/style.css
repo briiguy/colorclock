@@ -1,0 +1,44 @@
+body{
+  background-color:black;
+  font-size:0;
+}
+#background{
+  width:800px;
+  height:700px;
+  background:red;
+  position:relative;
+  opacity:1;
+}
+#position{
+  
+  width:270px;
+  position:absolute;
+  top:54%;
+  left:33.3%;
+}
+#minuteBar{
+  
+  width:5%;
+  margin:auto;
+  height:3.3px;
+  border-radius:25px;
+  background:white;
+}
+#background p{
+  
+  position:absolute;
+  font-size:50px;
+  left:38%;
+  top:36%;
+  color:white;
+  font-family:"Comic Sans MS";
+  transition-property: opacity;
+  transition-duration: 0.3s;
+   
+}
+#clock{
+  
+}
+#color{
+  opacity:0;
+}
